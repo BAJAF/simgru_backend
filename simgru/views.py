@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hola mundo, aqui deberia ir algo de Vue")
+    return HttpResponse("Hola mundo. Este es el el get de la raiz.")
