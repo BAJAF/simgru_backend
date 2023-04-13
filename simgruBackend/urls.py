@@ -21,5 +21,8 @@ from simgru import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
+    path('jwt/<str:token>/', views.jwt_view, name='jwt'),
+    # Por si es necesario de manera POST
+    # path('jwt/', views.jwt_view, name='jwt'),
 
 ]
