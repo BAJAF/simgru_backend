@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('jwt/<str:token>/', views.jwt_view, name='jwt'),
+    path('courses/<str:jwt>/', views.courses_view, name='courses'),
     # Por si es necesario de manera POST
     # path('jwt/', views.jwt_view, name='jwt'),
-
 ]

@@ -5,12 +5,11 @@ algorithm = "HS256"
 
 def encodeToken(token: str):
     encoded = jwt.encode({
-        "id" : token
+        "token" : token
     }, secret, algorithm="HS256")
 
     return encoded
 
-def decodeToken(jwt):
-    decode = jwt.decode(jwt, secret, algorithm="HS256")
-
+def decodeToken(_jwt):
+    decode = jwt.decode(_jwt, secret, algorithms=["HS256"])
     return decode
