@@ -26,7 +26,8 @@ def creds_view(request, token):
 def courses_view(request, jwt):
     token = JWTUtil.decodeToken(jwt)['token']
     courses = classroom.get_course_list(token=token)
-    return JsonResponse({'courses': courses})
+    response = JsonResponse({'courses': courses})
+    return response
 
 """
 Metodo para POST
