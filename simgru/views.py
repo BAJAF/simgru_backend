@@ -46,6 +46,15 @@ def create_code(request):
         return JsonResponse(codes_creator.create_code(body["ae"], body["cd"], body["i"]))
     except KeyError:
         return JsonResponse({'message': 'Missing value'}, status = 500)
+    
+def get_coursework_info(request, courseId:str, courseworkId: str):
+    
+        body = json.loads(request.body)
+
+        token = JWTUtil.decodeToken(body["token"])["token"]
+
+        return JsonResponse(classroom.get_coursework(token, courseId, courseworkId))
+        
 
 """
 Metodo para POST
