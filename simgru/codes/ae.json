@@ -1,0 +1,676 @@
+{
+  "atributos": [
+    {
+      "id": 1,
+      "descripcion": "Identificar, formular y resolver problemas de ingeniería utilizando hardware y/o software, con un enfoque integral aplicando los principios de las ciencias básicas e ingeniería en computación",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "El alumno identifica las entradas y modelo o método a utilizar para encontrar la salida o solución del problema",
+          "indicadores": [
+            {
+            "id": 1,
+            "descripcion": "El alumno conoce y aplica la normatividad o estándares vigentes relativos a un proyecto"
+            },
+            {
+            "id": 2,
+            "descripcion": ""
+            },
+            {
+            "id": 3,
+            "descripcion": "Diseñar un sistema de automatización, mediante el uso de sensores, actuadores, lenguaje de programación y/o programas de simulación, para analizar el comportamiento automatizado antes de su implementación, de forma analítica y creativa"
+            },
+            {
+              "id": 4,
+              "descripcion": "Elabora un listado de requerimientos de un producto de software"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "El alumno formula soluciones a problemas, partiendo de fundamentos teóricos de las matemáticas y la computación",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Diseña una solución a un problema desde la perspectiva de la programación orientada a objetos"
+            },
+            {
+              "id": 2,
+              "descripcion": "Selección de arquitecturas"
+            },
+            {
+              "id": 3,
+              "descripcion": "Diseña una solución a un problema por medio de un programa de mediana complejidad"
+            },
+            {
+              "id": 4,
+              "descripcion": "Diseña una solución a un programa de mediana complejidad"
+            },
+            {
+              "id": 5,
+              "descripcion": "Diseñar un sistema de automatización, mediante el uso de sensores, actuadores, lenguaje de programación y/o programas de simulación, para analizar el comportamiento automatizado antes de su implementación, de forma analítica y creativa. (El alumno escoge una plataforma de hardware para automatizar y controlar un proceso, implementando un controlador PID enfocado a la robótica"
+            },
+            {
+              "id": 6,
+              "descripcion": "Elabora una propuesta de arquitectura que satisfaga los requerimientos de un software"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "El alumno obtiene y valida el resultado al problema en base a los requerimientos",
+          "indicadores": [
+            {
+            "id": 1,
+            "descripcion": "Utiliza herramientas matemáticas y de cómputo para solucionar problemas"
+            },
+            {
+            "id": 2,
+            "descripcion": "Selecciona equipo"
+            },
+            {
+            "id": 3,
+            "descripcion": "Implementa un programa con base a un diseño"
+            },
+            {
+            "id": 4,
+            "descripcion": "Implementa un programa con base a un diseño"
+            },
+            {
+            "id": 5,
+            "descripcion": "Implementar tecnologías de cómputo, para la automatización, control, monitoreo y supervisión de procesos y/o servicios, mediante el uso de hardware y software, con actitud de cooperación y disposición al trabajo en equipo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "descripcion": "Diseñar e Implementar computadoras y sistemas basados en computadoras y redes de comunicación de datos,  que incluyen tanto hardware como software, así como su integración para resolver problemas de ingeniería novedosos",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "El alumno identifica las necesidades asociadas a  proyectos de ingeniería",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Elabora un reporte técnico que describe un proyecto"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "El alumno realiza diseños para satisfacer necesidades dentro de  proyectos de ingeniería",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Presenta un proyecto y sus resultados ante una audiencia"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "El alumno implementa diseños dentro de proyectos de ingeniería",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Presenta un proyecto con el apoyo de gráficas, tablas, imágenes que facilitan la comprensión del tema"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "descripcion": "",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "descripcion": "Comunicar la información técnica eficazmente con diferentes disciplinas y niveles de audiencias, de forma oral y escrita, tanto de forma presencial como a través de plataformas digitales",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "El alumno redacta reportes de manera clara y coherente",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Elabora un reporte técnico que describe un proyecto"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "El alumno expone oralmente de forma adecuada el desarrollo y los resultados del proyecto",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Presenta un proyecto y sus resultados ante una audiencia"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "Las gráficas, tablas e imágenes que el alumno utiliza para comunicar sus resultados son adecuados",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Presenta un proyecto con el apoyo de gráficas, tablas, imágenes que facilitan la comprensión del tema"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "descripcion": "Reconocer las implicaciones profesionales y éticas en la implementación o uso de sistemas de cómputo, en cuanto al acceso, uso y protección de la información, incluyendo su impacto en un ámbito global, económico, ambiental y social",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "Sigue buenas prácticas en el manejo de información",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Conoce instancias de protección. Exposición en equipo"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "Conoce los mecanismos de protección de Propiedad intelectual",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Conoce los procedimientos de protección de derechos de autor"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "Conoce el impacto de la privacidad de la información",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Ética"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "descripcion": "Mantenerse en constante actualización de los avances tecnológicos de la ingeniería en computación",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "Busca problemáticas de tecnología actual",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Elabora ensayos de tendencias tecnológicas"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "Utiliza Versiones recientes de herramientas de desarrollo",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Utiliza las versiones estables más actuales para el desarrollo de un producto de software"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "Busca y utiliza información actual para complementar tareas, prácticas o proyectos de clase",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Consulta documentación y tutoriales en línea para autocapacitarse en plataformas actualizadas para el desarrollo de software"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "descripcion": "Colabora de forma eficaz y responsable en equipos de trabajo considerando las actividades y restricciones de los proyectos de hardware y software: i.e., alcance, tiempo, recursos y riesgos",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "Cumple con sus actividades de acuerdo a un plan de trabajo de un proyecto en equipo",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Realiza un plan de trabajo"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "Utiliza herramientas colaborativas en línea",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": "Integra un repositorio en línea con los documentos del proyecto"
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "descripcion": "",
+      "cd": [
+        {
+          "id": 1,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "descripcion": "",
+          "indicadores": [
+            {
+              "id": 1,
+              "descripcion": ""
+            },
+            {
+              "id": 2,
+              "descripcion": ""
+            },
+            {
+              "id": 3,
+              "descripcion": ""
+            },
+            {
+              "id": 4,
+              "descripcion": ""
+            },
+            {
+              "id": 5,
+              "descripcion": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

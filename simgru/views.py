@@ -10,6 +10,8 @@ from django.http import JsonResponse
 from .utils import JWTUtil
 from .google_api import credentials
 from .google_api import classroom
+import json
+from .codes import codes_creator
 
 
 def index(request):
@@ -28,6 +30,22 @@ def courses_view(request, jwt):
     courses = classroom.get_course_list(token=token)
     response = JsonResponse({'courses': courses})
     return response
+
+def get_aes(request):
+    return JsonResponse(codes_creator.get_ae())
+
+def get_ae_crits(request, ae_id):
+    return JsonResponse(codes_creator.get_ae_crit(ae_id=ae_id-1))
+
+def get_ae_crit_inds(request, ae_id, crit_id):
+    return JsonResponse(codes_creator.get_ae_crit_ind(ae_id=ae_id-1, crit_id=crit_id-1))
+
+def create_code(request):
+    try:
+        body = json.loads(request.body)
+        return JsonResponse(codes_creator.create_code(body["ae"], body["cd"], body["i"]))
+    except KeyError:
+        return JsonResponse({'message': 'Missing value'}, status = 500)
 
 """
 Metodo para POST
