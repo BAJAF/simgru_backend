@@ -49,6 +49,8 @@ def get_ae_crit_ind(ae_id: int, crit_id: int):
 
     file.close
 
+    print(inds)
+
     return {
         "atributo": {
             "id": data["atributos"][ae_id]["id"],

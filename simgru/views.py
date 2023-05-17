@@ -40,10 +40,10 @@ def get_ae_crits(request, ae_id):
 def get_ae_crit_inds(request, ae_id, crit_id):
     return JsonResponse(codes_creator.get_ae_crit_ind(ae_id=ae_id-1, crit_id=crit_id-1))
 
-def create_code(request):
+def create_code(request, ae, cd, i):
     try:
-        body = json.loads(request.body)
-        return JsonResponse(codes_creator.create_code(body["ae"], body["cd"], body["i"]))
+        
+        return JsonResponse(codes_creator.create_code(ae, cd, i))
     except KeyError:
         return JsonResponse({'message': 'Missing value'}, status = 500)
     
