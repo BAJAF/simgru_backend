@@ -40,31 +40,23 @@ def get_ae_crits(request, ae_id):
 def get_ae_crit_inds(request, ae_id, crit_id):
     return JsonResponse(codes_creator.get_ae_crit_ind(ae_id=ae_id-1, crit_id=crit_id-1))
 
-def create_code(request):
+def create_code(request, ae, cd, i):
     try:
-        body = json.loads(request.body)
-        return JsonResponse(codes_creator.create_code(body["ae"], body["cd"], body["i"]))
+
+        return JsonResponse(codes_creator.create_code(ae, cd, i))
     except KeyError:
         return JsonResponse({'message': 'Missing value'}, status = 500)
-    
+
 def get_coursework_info(request, courseId:str, courseworkId: str):
-    
-        body = json.loads(request.body)
 
-        token = JWTUtil.decodeToken(body["token"])["token"]
+    body = json.loads(request.body)
 
-        return JsonResponse(classroom.get_coursework(token, courseId, courseworkId))
-        
+    token = JWTUtil.decodeToken(body["token"])["token"]
 
-"""
-Metodo para POST
+    return JsonResponse(classroom.get_coursework(token, courseId, courseworkId))
 
-def jwt_view(request):
-    if request.method == 'POST':
-        token = request.POST.get('token')
-        jwt = JWTUtil.encodeToken(token)
-        return JsonResponse({'jwt': jwt})
-    else:
-        return JsonResponse({'error': 'Method not allowed'}, status=405)
+def get_course_information(request):
+    body = json.loads(request.body)
+    token = JWTUtil.decodeToken(body["token"])["token"]
 
-"""
+    return JsonResponse(classroom.get_course_information(token, body["courseId"]))
