@@ -1,6 +1,6 @@
 import requests
 
-COURSES_LIST_URL = "https://classroom.googleapis.com/v1/courses"
+COURSES_URL = "https://classroom.googleapis.com/v1/courses"
 
 COURSEWORK_INFO_URL = "https://classroom.googleapis.com/v1/courses/{courseId}/courseWork/{id}"
 
@@ -8,8 +8,8 @@ def get_course_list(token: str):
     params = {
         "access_token": token,
         "courseStates": "ACTIVE",
-    }   
-    res = requests.get(url=COURSES_LIST_URL, params=params)
+    }
+    res = requests.get(url=COURSES_URL, params=params)
     resDict = res.json()
     coursesList = []
     if resDict:
@@ -24,8 +24,8 @@ def get_course_list(token: str):
     return coursesList
 
 def get_coursework(token: str, courseId: str, coursworkId: str):
-    url = f'{COURSES_LIST_URL}/{courseId}/courseWork/{coursworkId}'
-    
+    url = f'{COURSES_URL}/{courseId}/courseWork/{coursworkId}'
+
     params = {
         "access_token": token
     }
@@ -42,8 +42,19 @@ def get_coursework(token: str, courseId: str, coursworkId: str):
             'due_date':res_dict["dueDate"],
             'max_points': res_dict["maxPoints"]
         }
-    
+
     return coursework
+
+def get_course_information(token: str, courseId: str):
+    course_url = f'{COURSES_URL}/{courseId}'
+
+    course_params = {
+        "access_token": token
+    }
+
+    
+
+    pass
 
 if __name__ == "__main__":
     get_course_list("ya29.a0Ael9sCO5vJADc9nOU7L1XqP7HLfa1W6GKxOh-TQbhnAH06FKJZDB_nheb9hsN1so87aS95goZ8qp0GYO8WEGX-Y_BcWdeQU5FHvK7vs_ODmST_H6-cuT3KBiBgpuTXXqsY82KfTRzOGJh8S4hkjPtb5DhKHgaCgYKAT0SARISFQF4udJhpAVtZT3hkh_xdgihoob1SQ0163")
