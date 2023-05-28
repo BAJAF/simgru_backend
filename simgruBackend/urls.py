@@ -27,7 +27,8 @@ urlpatterns = [
     path('atributos/<int:ae_id>/', views.get_ae_crits, name="crits"),
     path('atributos/<int:ae_id>/criterios/<int:crit_id>/', views.get_ae_crit_inds, name="inds"),
     path('code/ae/<int:ae>/cd/<int:cd>/i/<int:i>/', views.create_code, name='code'),
-    path('courses/<str:courseId>/coursework/<str:courseworkId>/', views.get_coursework_info, name='coursework')
+    path('courses/<str:courseId>/coursework/<str:courseworkId>/', views.get_coursework_info, name='coursework'),
+    path('courses/', views.get_course_information, name="course_info"),
     # Por si es necesario de manera POST
     # path('jwt/', views.jwt_view, name='jwt'),
 ]
