@@ -56,7 +56,14 @@ def get_coursework_info(request, courseId:str, courseworkId: str):
     return JsonResponse(classroom.get_coursework(token, courseId, courseworkId))
 
 def get_course_information(request):
-    body = json.loads(request.body)
-    token = JWTUtil.decodeToken(body["token"])["token"]
+    #body = json.loads(request.body)
+    #print("Request body: ", body)
 
-    return JsonResponse(classroom.get_course_information(token, body["courseId"]))
+    req_token = request.GET["token"]
+    print("REQ TOKEN:::::", req_token)
+
+    token = JWTUtil.decodeToken(req_token)["token"]
+
+    req_courseId = request.GET["courseId"]
+
+    return JsonResponse(classroom.get_course_information(token, req_courseId))
